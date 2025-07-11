@@ -28,7 +28,30 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 150px;
+  padding-top: 40px;
+  margin-bottom: 90px;
+}
+
+h1 {
+  font-family: "Tangerine", cursive;
+  font-size: 72px;
+  color: #2c2c2c;
+}
+
+button {
+  background-color: #4b1f1f;
+  font-size: 22px;
+  color: #f5f3ee;
+  width: 130px;
+  height: 34px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #7d8b5d;
 }
 
 .hero-container {
@@ -39,14 +62,13 @@ nav {
 
 .hero-text-container {
   justify-self: center;
-  width: 200px;
 }
 
 .hero-image-container {
   justify-self: center;
   display: flex;
   justify-content: center;
-  width: 500px;
+  width: 600px;
   padding: 12px;
   gap: 12px;
   background-color: #2c2c2c;
