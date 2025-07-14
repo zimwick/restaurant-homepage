@@ -1,4 +1,5 @@
-export default `<main>
+const displayContact = function () {
+  const html = `<main>
   <div class="contact-text">
     <h2>Get in Touch</h2>
     <p>
@@ -20,3 +21,8 @@ export default `<main>
   </div>
 </main>
 `;
+
+  return html;
+};
+
+export default displayContact();

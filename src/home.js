@@ -1,7 +1,8 @@
 import food from "./food.jpg";
 import restaurant from "./restaurant.jpg";
 
-export default `<main>
+const displayContact = function () {
+  const html = `<main>
     <div class="hero-container">
       <div class="hero-text-container">
         <h1>The Saffron Table</h1>
@@ -27,3 +28,7 @@ export default `<main>
       </p>
     </div>
   </main>`;
+  return html;
+};
+
+export default displayContact();

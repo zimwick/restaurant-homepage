@@ -1,4 +1,5 @@
-export default `<main>
+const displayContact = function () {
+  const html = `<main>
         <h1 class="menu-h1">Menu</h1>
         <ul>
           <li>
@@ -32,3 +33,8 @@ export default `<main>
         </ul>
       </main>
       `;
+
+  return html;
+};
+
+export default displayContact();
