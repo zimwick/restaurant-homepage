@@ -18,6 +18,7 @@ colors:
 
 html {
   background-color: #f5f3ee;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -77,4 +78,32 @@ button:hover {
 .hero-img {
   max-width: 50%;
   overflow: hidden;
+}
+
+.home-paragraph {
+  margin: 50px 0;
+  font-size: 18px;
+}
+
+.menu-h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+ul {
+  font-size: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+strong {
+  display: block;
+}
+
+.contact-text {
+  margin-bottom: 25px;
 }
